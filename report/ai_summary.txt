@@ -1,0 +1,21 @@
+# AI-Assisted Summary
+
+## 1. Executive Summary
+
+The overall conversion rate in the analyzed campaign data is **87.6%**. **Referral** is the strongest-performing campaign channel with a conversion rate of **88.3%**, while **Social Media** is the weakest at **86.8%**. Among campaign types, **Conversion** performs best with a conversion rate of **93.4%**, whereas **Awareness** has the lowest rate at **85.6%**. The final XGBoost model identified **CampaignType, PreviousPurchases, CampaignChannel, EmailClicks, and EmailOpens** among the most important features for predicting customer conversion. The final model achieved a **macro F1 score of 0.76** and **ROC-AUC of 0.82** on unseen test customers, showing good overall predictive performance while also indicating that prediction of the minority non-converted class remains more challenging.
+
+## 2. Practical Campaign Recommendations
+
+1. **Prioritize high-performing campaign types:** Conversion campaigns had the highest observed conversion rate at **93.4%**. The marketing team can give greater attention to this campaign type while reviewing the objectives and performance of Awareness campaigns.
+
+2. **Strengthen channel strategy:** Referral had the highest observed channel conversion rate at **88.3%**, while Social Media had the lowest at **86.8%**. The business can investigate the characteristics of successful Referral campaigns and identify opportunities to improve weaker channels.
+
+3. **Use customer engagement and history as predictive signals:** Previous purchases, email clicks, email opens, campaign type, and campaign channel were among the important model features. These variables can therefore be considered when prioritizing customers for further analysis or campaign targeting, while avoiding the assumption that they directly cause conversion.
+
+## 3. Caution
+
+This analysis does **not prove that a particular campaign channel, campaign type, or customer feature causes higher conversion**. The statistical tests and machine learning model identify patterns and predictive relationships in the available data, but they do not establish causation. In addition, the model performs better for the majority converted class than for the minority non-converted class, so its predictions should be interpreted with this class imbalance in mind.
+
+## 4. GenAI Usage Note
+
+GenAI was used to help convert verified project results into a concise business summary and practical recommendations. The generated response was manually reviewed, and the reported numbers and claims were checked against the project's Python, SQL, statistical, and machine learning outputs before being included in the project.

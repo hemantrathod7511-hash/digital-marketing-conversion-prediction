@@ -1,0 +1,5 @@
+Actual,Predicted,Customers
+Not converted,Not converted,83
+Not converted,Converted,115
+Converted,Not converted,10
+Converted,Converted,1392

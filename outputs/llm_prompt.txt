@@ -1,0 +1,7 @@
+You are a marketing analyst. Using only the facts below, write: 1) a five-sentence executive summary, 2) three practical campaign recommendations, 3) one caution about what this analysis cannot prove. Do not invent any numbers.
+
+- Overall conversion rate is 87.6%.
+- Best channel: Referral at 88.3%; weakest: Social Media at 86.8%.
+- Best campaign type: Conversion at 93.4%; weakest: Awareness at 85.6%.
+- The most important features in the model are: CampaignType, PreviousPurchases, CampaignChannel, EmailClicks, EmailOpens.
+- The final model (XGBoost) reaches macro F1 0.76 and ROC-AUC 0.82 on unseen customers.

@@ -1,0 +1,17 @@
+Feature,p-value,Significant (p<0.05),Test
+EmailClicks,2.6826804335670535e-31,True,Mann-Whitney U
+TimeOnSite,3.5716156332938776e-31,True,Mann-Whitney U
+EmailOpens,4.943998486847561e-29,True,Mann-Whitney U
+AdSpend,8.253685131379721e-29,True,Mann-Whitney U
+ClickThroughRate,4.959782131180612e-27,True,Mann-Whitney U
+PreviousPurchases,1.452118951473735e-23,True,Mann-Whitney U
+PagesPerVisit,3.417653778140699e-20,True,Mann-Whitney U
+CampaignType,3.3983347098681334e-18,True,Chi-square
+LoyaltyPoints,1.5646016239378868e-17,True,Mann-Whitney U
+ConversionRate,4.7866082428569346e-17,True,Mann-Whitney U
+WebsiteVisits,2.0597452533487745e-12,True,Mann-Whitney U
+Income,0.21044025964524538,False,Mann-Whitney U
+SocialShares,0.3037988621454477,False,Mann-Whitney U
+CampaignChannel,0.5944499903760994,False,Chi-square
+Age,0.8828806618755565,False,Mann-Whitney U
+Gender,0.9510312300044484,False,Chi-square
